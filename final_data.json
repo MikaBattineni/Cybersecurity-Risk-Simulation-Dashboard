@@ -1,0 +1,110 @@
+[
+  {
+    "id": "AIID-2024-01",
+    "title": "Deepfake Finance Worker Scam",
+    "location": "Hong Kong",
+    "lat": 22.3193,
+    "lng": 114.1694,
+    "year": 2024,
+    "category": "Deepfake",
+    "severity": 9.0,
+    "desc": "Employee tricked into paying $25M by deepfake CFO video conference.",
+    "color": "#00e5ff"
+  },
+  {
+    "id": "AIID-2023-05",
+    "title": "Tesla Autopilot Cross-Traffic Collision",
+    "location": "USA",
+    "lat": 27.994402,
+    "lng": -81.760254,
+    "year": 2023,
+    "category": "Safety",
+    "severity": 8.5,
+    "desc": "Vehicle failed to yield to cross traffic while in FSD Beta mode.",
+    "color": "#ffcc00"
+  },
+  {
+    "id": "AIID-2023-12",
+    "title": "ChatGPT Training Data Leak",
+    "location": "USA",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "year": 2023,
+    "category": "Privacy",
+    "severity": 6.0,
+    "desc": "Bug allowed users to see titles of chat history from other users.",
+    "color": "#d500f9"
+  },
+  {
+    "id": "AIID-2024-02",
+    "title": "Biden Robocall Impersonation",
+    "location": "USA",
+    "lat": 43.1939,
+    "lng": -71.5724,
+    "year": 2024,
+    "category": "Deepfake",
+    "severity": 7.5,
+    "desc": "Voice cloning used to discourage voting in primary election.",
+    "color": "#00e5ff"
+  },
+  {
+    "id": "AIID-2023-08",
+    "title": "Facial Recognition Wrongful Arrest",
+    "location": "USA",
+    "lat": 42.3314,
+    "lng": -83.0458,
+    "year": 2023,
+    "category": "Bias",
+    "severity": 8.0,
+    "desc": "False match by facial recognition led to wrongful detention.",
+    "color": "#ff5722"
+  },
+  {
+    "id": "CVE-2023-25668",
+    "title": "TensorFlow Memory Safety",
+    "location": "USA",
+    "lat": 37.3861,
+    "lng": -122.0839,
+    "year": 2023,
+    "category": "Vulnerability",
+    "severity": 7.8,
+    "desc": "Heap buffer overflow in TensorShape implementation.",
+    "color": "#ff1744"
+  },
+  {
+    "id": "CVE-2022-45907",
+    "title": "PyTorch Arbitrary Code Execution",
+    "location": "USA",
+    "lat": 37.453,
+    "lng": -122.1817,
+    "year": 2022,
+    "category": "Vulnerability",
+    "severity": 9.8,
+    "desc": "Remote code execution via torch.jit.load vulnerability.",
+    "color": "#ff1744"
+  },
+  {
+    "id": "CVE-2024-001",
+    "title": "LangChain Prompt Injection",
+    "location": "USA",
+    "lat": 37.779,
+    "lng": -122.4199,
+    "year": 2024,
+    "category": "Injection",
+    "severity": 8.2,
+    "desc": "Attacker can force LLM to execute shell commands via crafted input.",
+    "color": "#00ff00"
+  },
+  {
+    "id": "CVE-2023-38533",
+    "title": "Scikit-Learn Denial of Service",
+    "location": "France",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "year": 2023,
+    "category": "Vulnerability",
+    "severity": 6.5,
+    "desc": "Memory leak in pairwise_distances_chunked function.",
+    "color": "#ff1744"
+  }
+]

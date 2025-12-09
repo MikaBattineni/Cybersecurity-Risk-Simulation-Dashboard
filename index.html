@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Threat Simulation Model</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/topojson.v3.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <div>
+            <div class="logo">🧬 SENTINEL.AI</div>
+            <div class="subtitle">Advanced Threat Modeling & Visualization</div>
+        </div>
+        <div>
+            <h1>Global AI Cyberwarfare Simulation</h1>
+        </div>
+        <div class="status">
+            DATA SOURCE: <span style="color:#00d2ff">SYNTHETIC MODEL 2024</span><br>
+            STATUS: <span class="blink">RUNNING</span>
+        </div>
+    </header>
+
+    <div class="dashboard-grid">
+        
+        <div id="map-container" class="panel">
+            <div class="panel-header">
+                Global Threat Trajectories
+                <span>Interactive Projection</span>
+            </div>
+            </div>
+
+        <div id="timeline-container" class="panel">
+            <div class="panel-header">
+                Incident Frequency (Monthly Aggregation)
+            </div>
+            </div>
+
+        <div id="network-container" class="panel">
+            <div class="panel-header">
+                <div>Threat Vector Network</div>
+                <div class="controls">
+                    <label>Force: <input type="range" id="chargeInput" min="-100" max="0" value="-30"></label>
+                    <label>Collide: <input type="range" id="collideInput" min="0" max="50" value="15"></label>
+                </div>
+            </div>
+            </div>
+
+    </div>
+
+    <div id="tooltip" class="tooltip" style="opacity:0;"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
